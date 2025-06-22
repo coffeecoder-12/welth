@@ -39,7 +39,7 @@ const Header = () => {
 
 
             <SignedOut>
-              <SignInButton forcedRedirectUrl="/dashboard">
+              <SignInButton forceRedirectUrl="/dashboard">
                 <Button variant="outline">Login</Button>
               </SignInButton>
             </SignedOut>
